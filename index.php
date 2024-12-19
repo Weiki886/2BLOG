@@ -404,7 +404,7 @@
                         <span class="newsBox-supTitle-iDescription" id="icon-acg">
                             <em><?php echo $acg_sw ? 'ACG' : 'TAG'; ?></em><i class="icom icon-acg"></i>
                         </span>
-                        <h2> ACG はすぐに TAG </h2><!-- ACG · TAG -->
+                        <h2>不过尔尔 无心自困 </h2><!-- ACG · TAG -->
                     </div>
                     <ul class="acg_window-content">
                     <?php
@@ -415,7 +415,7 @@
                     		    <?php $query_cid = get_option('site_acgnside_cid'); ?>
                         		<span id="acg_window-content-inside_left-txt">
                     				<!--<h2>pixivトップ50</h2><a href="javascript:;"> 漫游影视近期动态 </a>-->
-                    				<p>pixivで最もホットな2Dクリエイティブドローイングコレクショントップ<span id="acg_window-content-inside_left-txt_hidden" unselectable="on"> 10 </span> &nbsp;以上.</p>
+                    				
                         		</span>
                         	</span>
                         	<span id="acg_window-content-inside_left-bList">
