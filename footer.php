@@ -225,11 +225,11 @@
                         }
                     ?>
                   
-               // <a href="<?php echo get_option('site_contact_music') ?>" target="_blank" rel="nofollow" aria-label="music">
-                //  <span class="contact-icons" id="icon-netease">
-                   // <i class="BBFontIcons"></i>
-                   // </span>
-                 // </a>    
+                  <a href="<?php echo get_option('site_contact_music') ?>" target="_blank" rel="nofollow" aria-label="music">
+                    <span class="contact-icons" id="icon-netease">
+                      <i class="BBFontIcons"></i>
+                    </span>
+                  </a>    
                   <a href="javascript:void(0)" target="_self" rel="nofollow" aria-label="wechat">
                     <span class="contact-icons" id="icon-wechat">
                       <i class="icom"></i>
@@ -245,11 +245,11 @@
                       <i class="icom"></i>
                     </span>
                   </a>
-                //  <a href="<?php echo get_option('site_contact_bilibili') ?>" target="_blank" rel="nofollow" aria-label="bilibili">
-                 //   <span class="contact-icons" id="icon-bilibili">
-                  //    <i class="BBFontIcons"></i>
-                  //  </span>
-                 // </a>  
+                  <a href="<?php echo get_option('site_contact_bilibili') ?>" target="_blank" rel="nofollow" aria-label="bilibili">
+                    <span class="contact-icons" id="icon-bilibili">
+                      <i class="BBFontIcons"></i>
+                    </span>
+                  </a>  
                 <?php
                     $github = get_option('site_contact_github');
                  //   $steam = get_option('site_contact_steam');     
