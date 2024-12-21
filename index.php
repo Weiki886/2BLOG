@@ -308,7 +308,7 @@
             <div id="news-window">
                 <span class='resource-windows-top'>
                     <span class='resource-windows-top_inside'></span>
-                    <h3>随机 · 链</h3>
+                    <h3>友链</h3>
                 </span>
                 <ul class="news-list special_display" id="mainNews">
                     <?php 
