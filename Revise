@@ -1,0 +1,1 @@
+1. 2BLOG-main/inc/templates/pages/category/category-download.php 中删去 $output .= 'poster ['.$postimg.']'.$href.''.get_the_title().'下载附件 ['.$href.']'.$single_link.'';
