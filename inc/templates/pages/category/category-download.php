@@ -68,7 +68,7 @@ $output .= '<li class="'.$class_disabled.$class_topset.'">
             <img '.$lazyhold.' src="'.$postimg.'" alt="poster" />
         </a>
         <div class="desc">'.get_the_title().'
-            <a href="'.$download_link.'" target="'.$target.'" rel="nofollow">下载附件</a>
+            <a href="'.$download_link.'" target="'.$target.'" rel="nofollow"></a>
         </div>
     </div>
 </li>';
