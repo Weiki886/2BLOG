@@ -266,13 +266,17 @@
                           <i class="icom"></i>
                         </span>
                       </a>
-                <?php };   /* if($steam){ ?>
+                <?php };   
+			<!--
+			if($steam){ ?>
                       <a href="<?php echo $steam ?>" target="_blank" rel="nofollow" aria-label="steam">
                         <span class="contact-icons" id="icon-steam">
                           <i class="icom"></i>
                        </span>
                       </a>
-                <?php };   */   ?>
+                <?php };   
+			-->
+			?>
                 </li>
                 <li class="rcmdBrowser">
                   <p>最佳浏览体验<br/>推荐浏览器：</p>
