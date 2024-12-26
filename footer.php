@@ -267,7 +267,7 @@
                         </span>
                       </a>
                 <?php };   
-			<!--
+			/*
 			if($steam){ ?>
                       <a href="<?php echo $steam ?>" target="_blank" rel="nofollow" aria-label="steam">
                         <span class="contact-icons" id="icon-steam">
@@ -275,7 +275,7 @@
                        </span>
                       </a>
                 <?php };   
-			-->
+			*/
 			?>
                 </li>
                 <li class="rcmdBrowser">
