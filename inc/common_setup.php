@@ -165,7 +165,7 @@
             }
             $tag_dots = $max<$tag_count ? ($i<$max-1 ? $slice : '') : ($i<$tag_count-1 ? $slice : '');
             $tag_name = $tag_set->name;
-            $res_list .= $string ? $tag_name.$tag_dots : '<a href="'.get_bloginfo("url").'/tag/'.$tag_name.'" data-count="'.$tag_set->count.'" target="_blank" rel="tag">'.$tag_name.'</a>'.$tag_dots;
+            $res_list .= $string ? $tag_name.$tag_dots : '<a href="'.get_bloginfo("url").'/index.php/tag/'.$tag_name.'" data-count="'.$tag_set->count.'" target="_blank" rel="tag">'.$tag_name.'</a>'.$tag_dots;
         }
         return $res_list;
     }
