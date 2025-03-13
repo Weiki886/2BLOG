@@ -16,6 +16,15 @@
         }
         return $tag_link;
     }
+    
+    // 添加更多过滤器以确保所有可能的标签链接都被修改
+    add_filter('term_link', 'modify_term_link', 10, 3);
+    function modify_term_link($term_link, $term, $taxonomy) {
+        if ($taxonomy === 'post_tag' && strpos($term_link, '/index.php/') === false) {
+            return str_replace('/tag/', '/index.php/tag/', $term_link);
+        }
+        return $term_link;
+    }
 
     /*--------------------------------------------------------------------------
      * ====== THEME PANEL CONTROLS ======
